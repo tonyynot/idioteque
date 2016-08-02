@@ -7,15 +7,15 @@ description: >
 url: "http://anthonyramella.com" # the base hostname & protocol for your site
 permalink: "/blog/:title/"
 author:
-  fullname: Anthony Ramella
-  #googleplus: ""
+  fullname: Anthony Ramella #This will appear as the blog title in the topbar
+  #googleplus:
   github: tonyynot
   twitter: tonecodes
   disqus: aramella
   instagram: blankwaves
   linkedin: alramella
 
-google_analytics: 'UA-60032993-2'
+google_analytics: 'UA-________' #Your Google Analytics tracking ID goes here
 
 # Build settings
 # Do not change or stuff will break
