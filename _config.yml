@@ -18,6 +18,7 @@ author:
 google_analytics: 'UA-60032993-2'
 
 # Build settings
+# Do not change or stuff will break
 markdown: kramdown
 kramdown:
   input: GFM
