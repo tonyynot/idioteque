@@ -3,7 +3,7 @@ Idioteque is a clean, minimal and easy to use theme for Jekyll. It is designed r
 
 More detailed documentation is currently in the works. If you would like to use the theme prior to official release, please contact me. In the meantime, [this post](http://anthonyramella.com/blog/new-blog-design/) should serve as a guide on how everything works.
 
-Until I get a proper demo page set up, you can see the theme in action at my personal blog [here](http://anthonyramella.com)
+Until I get a proper demo page set up, you can see the theme in action at my personal blog [here](http://anthonyramella.com). Please fork and clone this repo if you wish to use the theme.
 
 ### License
 [MIT](https://github.com/bk2dcradle/accent/blob/gh-pages/LICENSE). Copyright &copy; [Anthony Ramella](http://twitter.com/tonecodes)
