@@ -1083,6 +1083,41 @@ blockquote {
     content: "\f054";
     color: #3B4145;
     padding-right: .5rem; }
+  .related_posts .comment {
+    border-bottom: 1px solid rgba(51, 51, 51, 0.1);
+    display: table;
+    margin-bottom: 1.5em;
+    padding-bottom: 1em;
+    width: 100%; }
+    .related_posts .comment .comment-image,
+    .related_posts .comment .comment-content {
+      display: table-cell;
+      vertical-align: top; }
+    .related_posts .comment .comment-image {
+      padding-right: 1.4em; }
+      .related_posts .comment .comment-image > img {
+        background: #82a7db;
+        border-radius: 3px;
+        display: block;
+        height: auto;
+        max-width: none;
+        padding: 0.7em;
+        width: 4em; }
+      .comment-reverse-order .related_posts .comment .comment-image {
+        padding-left: 10px;
+        padding-right: 0; }
+    .related_posts .comment .comment-content {
+      width: 100%; }
+      .related_posts .comment .comment-content h1 {
+        font-size: 1em;
+        margin: 0 0 0.5em 0; }
+      .related_posts .comment .comment-content p {
+        line-height: 1.5em;
+        margin-bottom: 0.5em; }
+      .related_posts .comment .comment-content p.comment-detail {
+        color: rgba(51, 51, 51, 0.5);
+        font-size: 0.9em;
+        font-style: italic; }
   .related_posts a {
     color: #A44A3F; }
     .related_posts a:hover {
