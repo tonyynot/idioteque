@@ -1,5 +1,5 @@
 # Site settings
-title: anthony ramella
+title: idioteque
 description: >
   a curated web developer blog with resources, articles and opinions by Anthony Ramella
 
@@ -7,7 +7,7 @@ description: >
 url: "http://anthonyramella.com" # the base hostname & protocol for your site
 permalink: "/blog/:title/"
 author:
-  fullname: Anthony Ramella #This will appear as the blog title in the topbar
+  fullname: Anthony Ramella
   #googleplus:
   github: tonyynot
   twitter: tonecodes
@@ -16,6 +16,17 @@ author:
   linkedin: alramella
 
 google_analytics: 'UA-________' #Your Google Analytics tracking ID goes here
+
+# Staticman (static comments)
+allowedFields: ['name', 'email', 'comment']
+branch: 'gh-pages'
+filename: entry{@timestamp}
+format: 'json'
+path: "_data/comments"
+moderation: true
+requiredFields: ['name', 'comment']
+transforms:
+  email: 'md5'
 
 # Build settings
 # Do not change or stuff will break
