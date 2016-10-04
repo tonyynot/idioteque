@@ -4,7 +4,6 @@ Idioteque is a clean, minimal and easy to use theme for Jekyll. It is responsive
 ###Installation
 Fork and clone this reponsitory.<br>
 Install npm<br>
-*For gulp.js installation help, view the [readme](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md).
 
 Inside the root directory:
 
@@ -17,6 +16,8 @@ Then run
 $ gulp
 ```
 Your site will automatically open in your browser window via Browsersync
+
+*For gulp.js installation help, view the [readme](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md).
 
 More detailed documentation is currently in the works. If you would like to use the theme prior to official release, please contact me. In the meantime, [this post](http://anthonyramella.com/blog/new-blog-design/) should serve as a guide on how everything works.
 
