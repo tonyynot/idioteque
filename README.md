@@ -26,5 +26,7 @@ Until I get a proper demo page set up, you can see the theme in action at my per
 ###User comments
 Idioteque handles statically generated user comments with [Staticman](https://staticman.net/). Please visit the site for installation instructions and configuration. In the config.yml file, the settings can be changed in the comments section.
 
+### [DEMO](http://anthonyramella.com)
+
 ### License
 [MIT](https://github.com/bk2dcradle/accent/blob/gh-pages/LICENSE). Copyright &copy; [Anthony Ramella](http://twitter.com/tonecodes)
