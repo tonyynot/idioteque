@@ -1,0 +1,9 @@
+allowedFields: ['name', 'email', 'comment']
+branch: 'gh-pages'
+filename: entry{@timestamp}
+format: 'json'
+path: "_data/comments"
+moderation: true
+requiredFields: ['name', 'comment']
+transforms:
+  email: 'md5'

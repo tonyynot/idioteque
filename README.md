@@ -1,32 +1,34 @@
 ### Idioteque - A Minimal Theme for Jekyll
-Idioteque is a clean, minimal and easy to use theme for Jekyll. It is responsively designed using [Bourbon](http://bourbon.io) and the Neat grid. Colors and fonts can be easily changed with the defined Sass variables found in _variables.scss. Compiling is handled by Gulp and the settings can be found in the gulpfile. The gulpfile.js is thanks to shakyShane's [Jekyll-Gulp-Browsersync](https://github.com/shakyShane/jekyll-gulp-sass-browser-sync) starter project which includes an out of the box installation of Jekyll with GulpJS, Sass compiling, AutoPrefixer & BrowserSync configurations.
+Idioteque is a clean, minimal and easy to use theme for Jekyll. It is responsively designed using [Bourbon](http://bourbon.io) and the Neat grid. Colors and fonts can be easily changed with the defined Sass variables found in ``_variables.scss.`` Compiling is handled by Gulp and the settings can be found in the gulpfile. The gulpfile.js is thanks to shakyShane's [Jekyll-Gulp-Browsersync](https://github.com/shakyShane/jekyll-gulp-sass-browser-sync) starter project which includes an out of the box installation of Jekyll with GulpJS, Sass compiling, AutoPrefixer & BrowserSync configurations.
 
-###Installation
-Fork and clone this reponsitory.<br>
-Install npm<br>
+## Installation
+Fork and clone this repository, then cd into the directory  
+```bash
+$ cd idioteque
+```
 
-Inside the root directory:
-
-Run 
+Run
 ```bash
 $ npm install
+$ gem install bundler
+$ bundle install
 ```
 Then run
 ```bash
 $ gulp
 ```
-Your site will automatically open in your browser window via Browsersync
 
-*For gulp.js installation help, view the [readme](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md).
+## Gulp.js build automation
+After running the gulp command, your site will automatically open in the browser window via Browsersync. Sass compiling is handled in Gulp and all changes made to HTML and Sass will trigger the browser to auto refresh.
 
-More detailed documentation is currently in the works. If you would like to use the theme prior to official release, please contact me. In the meantime, [this post](http://anthonyramella.com/blog/new-blog-design/) should serve as a guide on how everything works.
+* For gulp.js installation help, view the [readme](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md).
 
-Until I get a proper demo page set up, you can see the theme in action at my personal blog [here](http://anthonyramella.com). Please fork and clone this repo if you wish to use the theme.
+More detailed documentation is currently in the works. If you would like to use the theme prior to official release, please contact me. In the meantime, [this post](https://anthernet.com/blog/new-blog-design/) should serve as a guide on how customization works.
 
-###User comments
-Idioteque handles statically generated user comments with [Staticman](https://staticman.net/). Please visit the site for installation instructions and configuration. In the config.yml file, the settings can be changed in the comments section.
+## User comments
+Idioteque can generate user comments statically via github pull requests through [Staticman](https://staticman.net/). Please visit the site for installation instructions and configuration. In the staticman.yml file, the settings can be changed in the comments section. Disqus comments are enabled by default and can be disabled by commenting out the line ``{% include externals/disqus.html %}`` in ``_layouts/post.html``. Simply un-comment the line ``{% include comments.html %}`` to enable statically generated comments.
 
-### [DEMO](http://anthonyramella.com)
+## [DEMO](http://anthonyramella.com)
 
-### License
-[MIT](https://github.com/bk2dcradle/accent/blob/gh-pages/LICENSE). Copyright &copy; [Anthony Ramella](http://twitter.com/tonecodes)
+## License
+[MIT](https://github.com/bk2dcradle/accent/blob/gh-pages/LICENSE). Copyright &copy; [Anthony Ramella](http://tonyynot.me)

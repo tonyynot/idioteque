@@ -1,32 +1,26 @@
 # Site settings
 title: idioteque
 description: >
-  a curated web developer blog with resources, articles and opinions by Anthony Ramella
+  a minimal theme for Jekyll static site generator
 
 # Baseurl: "/" # the subpath of your site, e.g. /blog/
-url: "http://anthonyramella.com" # the base hostname & protocol for your site
+url: "/" # the base hostname & protocol for your site
 permalink: "/blog/:title/"
 author:
   fullname: Anthony Ramella
   #googleplus:
   github: tonyynot
   twitter: tonecodes
-  disqus: aramella
-  instagram: blankwaves
-  linkedin: alramella
+  disqus:
+  instagram:
+  linkedin:
 
 google_analytics: 'UA-________' #Your Google Analytics tracking ID goes here
 
-# Staticman (static comments)
-allowedFields: ['name', 'email', 'comment']
-branch: 'gh-pages'
-filename: entry{@timestamp}
-format: 'json'
-path: "_data/comments"
-moderation: true
-requiredFields: ['name', 'comment']
-transforms:
-  email: 'md5'
+# Comments settings - see staticman.yml for configurations
+github_repo:
+github_branch:
+comments_redirect:
 
 # Build settings
 # Do not change or stuff will break
@@ -35,9 +29,3 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 exclude: ["node_modules", "gulpfile.js", "package.json"]
-
-gems:
-  - jekyll-gist
-  - jekyll/tagging
-  - jekyll-tagging-related_posts
-  - font-awesome-sass
