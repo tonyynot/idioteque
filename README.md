@@ -1,7 +1,6 @@
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/tonyynot/idioteque/blob/master/LICENSE)
 
-# idioteque_
-## a minimal theme for Jekyll
+# Idioteque - A Minimal Theme for Jekyll
 Idioteque is a clean, minimal and easy to use theme for Jekyll. It is responsively designed using [Bourbon](http://bourbon.io) and the Neat grid. Colors and fonts can be easily changed with the defined Sass variables found in ``_variables.scss.`` Compiling is handled by Gulp and the settings can be found in the gulpfile. The gulpfile.js is thanks to shakyShane's [Jekyll-Gulp-Browsersync](https://github.com/shakyShane/jekyll-gulp-sass-browser-sync) starter project which includes an out of the box installation of Jekyll with GulpJS, Sass compiling, AutoPrefixer & BrowserSync configurations.
 
 ## Installation
