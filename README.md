@@ -33,4 +33,4 @@ Idioteque can generate user comments statically via github pull requests through
 ## [DEMO](https://idioteque.netlify.com/)
 
 ## License
-[MIT](https://github.com/tonyynot/idioteque/blob/master/LICENSE). Copyright &copy; [Anthony Ramella](http://tonyynot.me)
+[MIT](https://github.com/tonyynot/idioteque/blob/master/LICENSE). Copyright &copy; tonyynot
