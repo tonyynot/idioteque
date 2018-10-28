@@ -7,7 +7,7 @@ description: >
 url: "/" # the base hostname & protocol for your site
 permalink: "/blog/:title/"
 author:
-  fullname: Anthony Ramella
+  fullname: Tony R
   #googleplus:
   github: tonyynot
   twitter: tonecodes
